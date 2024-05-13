@@ -1,0 +1,40 @@
+.map__wrapper {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.map__dectopcard {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 320px;
+}
+
+@media only screen and (max-width: 1070px) {
+  .map__wrapper {
+    height: 700px;
+    width: 100%;
+    position: relative;
+  }
+  .map__dectopcard {
+    top: 220px;
+  }
+}
+.map__mobilecard {
+  display: none;
+}
+
+@media only screen and (max-width: 881px) {
+  .map__wrapper {
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+  .map__dectopcard {
+    display: none;
+  }
+  .map__mobilecard {
+    margin: 50px 0;
+    display: block;
+  }
+}

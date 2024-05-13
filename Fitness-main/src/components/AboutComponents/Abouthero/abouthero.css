@@ -1,0 +1,53 @@
+.abouthero {
+  padding: 100px 0 118px;
+  background: url("../../../assets/Images/png/aboutback.png");
+  background-position: right top;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.abouthero__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 137px;
+}
+.abouthero__textbox {
+  padding: 57px 100px 57px 100px;
+  max-width: 801px;
+  min-height: 306px;
+  margin: 0 auto;
+  background: rgb(16, 15, 15);
+}
+
+.abouthero__texdoc {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 36px;
+}
+
+@media only screen and (max-width: 752px) {
+  .abouthero {
+    padding: 70px 0 88px;
+  }
+  .abouthero__title {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 100px;
+  }
+  .abouthero__textbox {
+    padding: 37px 37px 37px 37px;
+    max-width: 801px;
+    min-height: 306px;
+    margin: 0 auto;
+    background: rgb(16, 15, 15);
+  }
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "BOWLER";
+  font-style: normal;
+  font-weight: normal;
+  src: local("BOWLER"), url("../assets/Fonts/BOWLER.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins"), url("./Fonts/Poppins-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins"), url("./Fonts/Poppins-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Poppins"),
+    url("../assets//Fonts/Poppins-Light.ttf") format("woff");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(4, 4, 4);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1258px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

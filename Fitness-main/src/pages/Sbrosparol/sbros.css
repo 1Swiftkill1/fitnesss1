@@ -1,0 +1,241 @@
+.sbros {
+  min-height: 100vh;
+  padding: 106px 0 228px;
+  background: url("../../assets/Images/png/loginback.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.sbros__change {
+  min-height: 100vh;
+  padding: 106px 0 228px;
+  background: url("../../assets/Images/png/loginback.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+.sbros__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sbros__box {
+  max-width: 561px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sbros__logo {
+  width: 201px;
+  margin: 0 auto;
+}
+
+.sboros__btn {
+  display: block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 245px;
+  height: 61.5px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  border-radius: 100px;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 61.5px;
+}
+.sboros__btn--back {
+  margin-top: 30px;
+}
+.sbros__title {
+  margin-top: 40px;
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sbros__text {
+  margin-top: 31px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sbros__form {
+  width: 418px;
+}
+.sbros__label {
+  display: block;
+  margin-top: 58px;
+}
+.sbros__label-text {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sbros__input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  height: 35.5px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sbros {
+    background: none;
+  }
+  .sbros__wrapper {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 521px) {
+  .sbros__form {
+    width: 100%;
+  }
+}
+
+.change__password__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sbros__change__header {
+  padding: 18px 0;
+  margin-bottom: 40px;
+}
+
+.sbros__change__body {
+  max-width: 442px;
+}
+.sbros__change__title {
+  padding: 56px 0;
+  text-align: center;
+  margin-bottom: 82px;
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sbros__change__form {
+  margin: 0 auto;
+  width: 408px;
+}
+
+.sbros__change__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background: none;
+  height: 51px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.sbros__change__label {
+  display: block;
+  margin-bottom: 34px;
+}
+
+.sbros__change__label-text {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sbros__change__btn {
+  display: block;
+  height: 55px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.sbros__change__btn:hover {
+  opacity: 0.9;
+}
+.sbros__error {
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sbros__similar__error {
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 758px) {
+  .sbros__change__header {
+    margin-bottom: 10px;
+  }
+  .sbros__change__title {
+    padding: 28px 0;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .sbros__change__header {
+    margin-bottom: 10px;
+  }
+  .sbros__change__title {
+    text-align: center;
+    padding: 28px 0;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 478px) {
+  .sbros__change__form {
+    width: 100%;
+  }
+}

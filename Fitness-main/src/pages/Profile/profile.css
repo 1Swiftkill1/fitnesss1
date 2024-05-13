@@ -1,0 +1,38 @@
+.profile {
+  padding-bottom: 111px;
+  padding-top: 52px;
+}
+.profile__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.profile__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.profileabout__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.izminitphoto__fayl {
+  width: 0;
+  height: 0;
+
+  overflow: hidden;
+}
+@media only screen and (max-width: 900px) {
+  .profile__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}

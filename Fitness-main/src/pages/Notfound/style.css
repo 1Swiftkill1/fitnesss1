@@ -1,0 +1,9 @@
+.notfoundbtn {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #e4e3e3;
+}

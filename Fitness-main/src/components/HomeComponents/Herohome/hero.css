@@ -1,0 +1,65 @@
+.herohome {
+  padding: 143px 0 114px 0;
+  background: url("../../../assets/Images/png/herobac.png"), rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herohome__wrapper {
+  max-width: 662px;
+}
+
+.herohome__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.herohome__desc {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 980px) {
+  .herohome {
+    padding: 123px 0 94px 0;
+  }
+}
+
+@media only screen and (max-width: 752px) {
+  .herohome__title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+  }
+  .herohome__desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .herohome {
+    padding: 100px 0 60px 0;
+  }
+  .herohome__title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+  .herohome__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}

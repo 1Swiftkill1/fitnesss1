@@ -1,0 +1,33 @@
+.raspisaniinner {
+  cursor: pointer;
+  width: 118px;
+  margin: 0 auto;
+  min-height: 86px;
+  padding: 14px 9px;
+  border-radius: 10px;
+  background: rgb(36, 36, 36);
+}
+.raspisaniinner__title {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.raspisaninner__about {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4px;
+  gap: 6px;
+}
+
+.raspisaninne__text {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}

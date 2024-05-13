@@ -1,0 +1,140 @@
+.create__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  margin-bottom: 96px;
+}
+.create {
+  padding-bottom: 93px;
+}
+.create__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 81px;
+}
+
+.create__accout {
+  max-width: 738px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 66px;
+}
+
+.create__form {
+  width: 408px;
+  margin: 0 auto;
+}
+.create__label {
+  display: block;
+  margin-bottom: 34px;
+}
+.create__text {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.create__input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  height: 51px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.create__btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  height: 55px;
+}
+
+.create__btn--back {
+  margin-top: 33px;
+}
+
+.error {
+  color: red;
+}
+
+@media only screen and (max-width: 1072px) {
+  .create__header {
+    margin-bottom: 50px;
+  }
+  .create__title {
+    margin-bottom: 40px;
+  }
+  .create__accout {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 942px) {
+  .create__title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .create__accout {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 752px) {
+  .create__title {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .create__accout {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .create__title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .create__accout {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 457px) {
+  .create__form {
+    width: 100%;
+  }
+}

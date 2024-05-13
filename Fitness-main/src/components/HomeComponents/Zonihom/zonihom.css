@@ -1,0 +1,89 @@
+.zonihom {
+  padding: 100px 0 67px;
+  background: url("../../../assets/Images/png/namibac.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.zonihom__textbox {
+  max-width: 580px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.zonihom__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0%;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.zonihom__doc {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.zonihom__cardlist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 86px;
+}
+.zoniho__cardlist__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 266px;
+}
+
+.zoniho__cardlist__img {
+  width: 181px;
+  height: 181px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.zoniho__cardlist__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.zoniho__cardlist__doc {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: center;
+}
+
+@media only screen and (max-width: 752px) {
+  .zonihom {
+    padding: 80px 0 47px;
+  }
+}
+@media only screen and (max-width: 552px) {
+  .zonihom__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .zonihom {
+    padding: 60px 0 37px;
+  }
+  .zonihom__cardlist {
+    row-gap: 40px;
+  }
+}

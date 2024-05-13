@@ -1,0 +1,179 @@
+.trener {
+  padding-bottom: 203px;
+}
+
+.trener__about {
+  display: flex;
+  gap: 77px;
+}
+.trener__img {
+  max-width: 427px;
+  height: 484px;
+  object-fit: cover;
+}
+
+.trener__about-text {
+  margin-top: 77px;
+}
+
+.trener__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.trener__name {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.trener__position {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.8;
+}
+.trener__order {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.trener__orderbox {
+  width: 427px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trener__order-title {
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.trener__order-text {
+  margin-top: 25px;
+  max-width: 276px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.trener__order-btn {
+  border: none;
+  outline: none;
+  display: block;
+  background: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 202px;
+  height: 44px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+}
+.trener__order-btn:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  transition: all 500ms;
+}
+.trener__imges {
+  display: flex;
+  align-items: center;
+}
+
+.trener__controlitem {
+  width: 294px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 399px;
+  background: rgb(24, 24, 24);
+}
+
+.trener__imges__img {
+  width: 498px;
+  height: 399px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1171px) {
+  .trener__order {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .trener__imges {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+  }
+  .trener__controlitem {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .trener__about {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 784px) {
+  .trener__about {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .trener__about-text {
+    margin-top: 30px;
+  }
+  .trener__about-text {
+    text-align: center;
+  }
+  .trener__name {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  .trener__imges__img {
+    width: calc(100vw - 40px);
+    object-fit: cover;
+  }
+  .trener__orderbox {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 464px) {
+  .trener__img {
+    width: 100%;
+  }
+}

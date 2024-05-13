@@ -1,0 +1,77 @@
+.samihome {
+  padding: 143px 0 103px;
+  background: url("../../../assets/Images/png/samihomebac.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.samihome__wrapper {
+  max-width: 707px;
+}
+.samihome__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0%;
+  margin-bottom: 47px;
+  text-align: left;
+}
+
+.samihome__doc {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 56px;
+}
+
+.samihome__btn {
+  display: block;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 218px;
+  height: 58px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+}
+.samihome__btn:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  transition: all 500ms;
+}
+
+@media only screen and (max-width: 752px) {
+  .samihome {
+    padding: 113px 0 83px;
+  }
+  .samihome__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  .samihome {
+    padding: 100px 0 60px;
+  }
+  .samihome__title {
+    font-size: 32px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .samihome__doc {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+}

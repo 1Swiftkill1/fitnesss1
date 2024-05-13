@@ -1,0 +1,100 @@
+.profileschedule {
+  padding: 52px 0 120px;
+}
+.profileschedule__list__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.profileschedule__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.profileschedule__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profileschedule__main {
+  padding: 30px 33.5px;
+  border-radius: 25px;
+  background: rgb(21, 21, 21);
+}
+.profileschedule__inner__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profileschedule__list {
+  display: flex;
+  align-items: flex-start;
+  width: 780px;
+}
+.profileschedule__listitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+}
+
+.profileschedule__innerlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  border-right: 1px dashed rgba(255, 255, 255, 0.25);
+  min-height: 456px;
+}
+.profileschedule__innerlist__first {
+  border-left: 1px dashed rgba(255, 255, 255, 0.25) !important;
+}
+
+@media only screen and (max-width: 1170px) {
+  .profileschedule__maintablebox {
+    width: calc(100vw - 400px);
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .profileschedule__wrapper {
+    flex-direction: column;
+  }
+  .profileschedule__maintablebox {
+    width: calc(100vw - 105px);
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 602px) {
+  .profileschedule__maintablebox {
+    width: calc(100vw - 80px);
+    overflow-x: auto;
+  }
+  .profileschedule__main {
+    padding: 30px 10px;
+    border-radius: 25px;
+    background: rgb(21, 21, 21);
+  }
+}

@@ -1,0 +1,86 @@
+.ownprogram {
+  padding-bottom: 118px;
+}
+.ownprogram__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 37px;
+}
+
+.ownprogram__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 116px;
+}
+.ownprogram__listitem {
+  width: 455px;
+}
+
+.ownprogram__listimg {
+  width: 100%;
+  height: 299px;
+  object-fit: cover;
+  margin-bottom: 42px;
+}
+
+.ownprogram__listitem__title {
+  color: rgb(255, 255, 255);
+  font-family: "BOWLER";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.ownprogram__listitem__doc {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ownprogram__listitem {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ownprogram__listitem {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .ownprogram {
+    padding-bottom: 80px;
+  }
+  .ownprogram__title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  .ownprogram__listimg {
+    margin-bottom: 25px;
+  }
+  .ownprogram {
+    padding-bottom: 60px;
+  }
+  .ownprogram__title {
+    font-size: 23px;
+  }
+}
